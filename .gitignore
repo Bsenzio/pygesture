@@ -1,14 +1,25 @@
+# Virtual environment
+.venv/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-dataset/*.csv
-
-models/*.pkl
-models/*.joblib
-
+# IDEs
 .vscode/
 .idea/
 
+# OS
 .DS_Store
-
 Thumbs.db
+
+# Dataset
+dataset/*.csv
+
+# Trained models
+models/*.joblib
+models/*.pkl
+models/*.onnx
+
+# Logs
+*.log
